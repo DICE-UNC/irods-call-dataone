@@ -1,0 +1,15 @@
+NOTICE: Release Version = rods3.2, API Version = d
+NOTICE: irodsHost=irods-dev1.renci.org
+NOTICE: irodsPort=1248
+NOTICE: irodsDefResource=demoResc
+NOTICE: irodsHome=/tempZone/home/rods
+NOTICE: irodsCwd=/tempZone/home/rods
+NOTICE: irodsUserName=rods
+NOTICE: irodsZone=tempZone
+
+# DO NOT SEND IN " or '
+
+irule -F dataOne-v2.r "'carbon AND sequestration'" "'/tempZone/home/rods/d1test'" "'nfsResc'" "'20'"
+
+irule -F dataOne-v2.r "'rainfall surface permeability'" "'/tempZone/home/rods/d1test'" "'nfsResc'" "'5'"
+
